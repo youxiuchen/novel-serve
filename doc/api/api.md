@@ -1,6 +1,6 @@
 
- <h1 class="curproject-name"> 小说精品屋-plus </h1> 
- 小说精品屋-plus接口
+ <h1 class="curproject-name"> 向往的小说-plus </h1> 
+ 向往的小说-plus接口
 
 
 # 作家模块

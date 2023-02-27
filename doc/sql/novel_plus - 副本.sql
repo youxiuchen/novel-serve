@@ -455,7 +455,7 @@ CREATE TABLE `friend_link`
 -- Records of friend_link
 -- ----------------------------
 INSERT INTO `friend_link`
-VALUES ('5', '小说精品屋', 'https://novel.xxyopen.com', '11', '1', null, null, null, null);
+VALUES ('5', '向往的小说', 'https://novel.xxyopen.com', '11', '1', null, null, null, null);
 
 -- ----------------------------
 -- Table structure for news

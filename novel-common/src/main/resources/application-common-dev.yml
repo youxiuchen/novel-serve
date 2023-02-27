@@ -41,6 +41,7 @@ sharding:
         type: com.zaxxer.hikari.HikariDataSource
         driver-class-name: com.mysql.cj.jdbc.Driver
         jdbc-url: jdbc:mysql://113.31.106.93:4000/novel_plus?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai
+#        jdbc-url: jdbc:mysql://aceaae89f5e3.c.methodot.com:33890/novel_plus?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai
         username: root
         password: 123456
     #      ds1:

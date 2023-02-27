@@ -62,10 +62,10 @@ public class UserController extends BaseController {
     public RestResult<?> register(@Validated({AddGroup.class}) User user, @RequestParam(value = "velCode", defaultValue = "") String velCode) {
 
 
-        //判断验证码是否正确
-        if (!velCode.equals(cacheService.get(RandomValidateCodeUtil.RANDOM_CODE_KEY))) {
-            return RestResult.fail(ResponseStatus.VEL_CODE_ERROR);
-        }
+//        //判断验证码是否正确
+//        if (!velCode.equals(cacheService.get(RandomValidateCodeUtil.RANDOM_CODE_KEY))) {
+//            return RestResult.fail(ResponseStatus.VEL_CODE_ERROR);
+//        }
 
         //注册
         UserDetails userDetails = userService.register(user);
